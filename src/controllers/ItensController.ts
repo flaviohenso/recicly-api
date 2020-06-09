@@ -12,7 +12,7 @@ class ItensController {
             return {
                 id: iten.id,
                 title: iten.title,
-                imagen_url: `http://localhost:3333/uploads/${iten.image}`,
+                imagen_url: `http://192.168.100.154:3333/uploads/${iten.image}`,
             }
         })
     

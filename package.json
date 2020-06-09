@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "ts-node-dev src/server.ts",
     "knex:seed": "knex --env development --knexfile knexfile.ts seed:run",
-    "knex:migrate": "knex --env development --knexfile knexfile.ts migrate:lastest"
+    "knex:migrate": "knex --env --knexfile knexfile.ts migrate:lastest"
   },
   "keywords": [],
   "author": "",
